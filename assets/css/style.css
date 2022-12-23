@@ -1,14 +1,21 @@
 /* Global Styles */
-
-/* @font-face {
-  font-family: ;
-  src: url();
+/*##### Font-Family##### */
+@font-face {
+  font-family: "Athene";
+  src: url(../fonts/Lev3_5_css-einführung-Folio-font/Athene.otf);
 }
 @font-face {
-  font-family: ;
-  src: url();
-} */
+  font-family: "Open_Sans";
+  src: url("../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+.fontFamily {
+  font-family: "Open_Sans";
+}
+.atheneFont {
+  font-family: "Athene";
+}
 
+/* ########################## */
 * {
   margin: 0;
   padding: 0;
@@ -18,9 +25,7 @@ body {
   max-width: 1440px;
   margin: 0 auto;
 }
-
 /*=== Header Styles ===*/
-
 .bgColor {
   background-color: #d2d2d2;
 }
@@ -41,6 +46,8 @@ body {
   max-width: 500px;
   margin: 0 auto;
   text-align: center;
+  font-family: "Athene";
+  color: rgb(7, 7, 117);
 }
 .temporaryFolio h2 {
   font-size: 3em;
@@ -49,7 +56,8 @@ body {
 .imgMan {
   text-align: center;
   padding: 5vh;
-  /* border-top: 1px solid black; */
+  font-family: "Athene";
+  color: rgb(7, 7, 117);
 }
 .imgMan img {
   width: 100%;
@@ -67,12 +75,15 @@ body {
 .titleMain h2 {
   font-size: 4em;
   padding: 2vh 0 5vh 0;
+  font-family: "Athene";
 }
 .inhaltRelease {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   margin: 0 15px 0 15px;
+  font-size: 0.9rem;
+  font-family: "Open_Sans";
 }
 .inhaltRelease p {
   width: 100%;
@@ -114,11 +125,13 @@ body {
   font-size: 4rem;
   padding: 10vh 0;
   color: #7d2222;
+  font-family: "Athene";
 }
 .mainWorksP {
   max-width: 100%;
   width: 380px;
   padding: 0 0 10vh 0;
+  font-family: "Open_Sans";
 }
 .roMarco {
   font-size: 2rem;
@@ -126,6 +139,7 @@ body {
   color: #7d2222;
   display: flex;
   flex-wrap: wrap;
+  font-family: "Athene";
 }
 .roMarco img {
   width: 100%;
@@ -134,12 +148,13 @@ body {
 }
 .kathe {
   font-size: 2rem;
-  padding: 10vh 0 20vh 0;
+  padding: 10vh 15vw 20vh 15vw;
   color: #7d2222;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
   flex-wrap: wrap;
+  font-family: "Athene";
 }
 .kathe img {
   width: 100%;
@@ -157,10 +172,12 @@ footer {
 .conta h2 {
   font-size: 5rem;
   padding: 5vh 0 20vh 0;
+  font-family: "Athene";
 }
 .conta p {
   width: 300px;
   text-align: center;
+  font-family: "Open_Sans";
 }
 .conta nav {
   padding: 20vh 0 10vh 0;
@@ -172,6 +189,7 @@ footer {
   color: black;
   display: block;
   padding: 5px;
+  font-family: "Open_Sans";
 }
 .seiteP {
   display: flex;
