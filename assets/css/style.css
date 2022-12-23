@@ -148,7 +148,7 @@ body {
 }
 .kathe {
   font-size: 2rem;
-  padding: 10vh 15vw 20vh 15vw;
+  padding: 10vh 10vw 20vh 10vw;
   color: #7d2222;
   display: flex;
   flex-direction: row-reverse;
@@ -179,8 +179,16 @@ footer {
   text-align: center;
   font-family: "Open_Sans";
 }
+.seiteP {
+  display: flex;
+  justify-content: center;
+}
+.navbarr {
+  display: flex;
+  justify-content: flex-end;
+}
 .conta nav {
-  padding: 20vh 0 10vh 0;
+  padding: 15vh 5vw 10vh 0;
   width: max-content;
 }
 .conta nav a {
@@ -190,12 +198,4 @@ footer {
   display: block;
   padding: 5px;
   font-family: "Open_Sans";
-}
-.seiteP {
-  display: flex;
-  justify-content: center;
-}
-.navbarr {
-  display: flex;
-  justify-content: flex-end;
 }
